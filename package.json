@@ -1,0 +1,50 @@
+{
+  "name": "fabric",
+  "version": "1.1.0",
+  "description": "Material UI Custom Components using Storybook",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "storybook dev -p 6006",
+    "build": "tsc",
+    "test": "playwright test",
+    "test:ui": "playwright test test/ui-tests",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "Osvaldo Lievano",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/material-icons": "^5.0.7",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/material": "^5.14.15",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "^7.5.3",
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/addon-interactions": "^7.5.3",
+    "@storybook/addon-links": "^7.5.3",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/addon-themes": "^7.5.3",
+    "@storybook/blocks": "^7.5.3",
+    "@storybook/react": "^7.5.3",
+    "@storybook/react-vite": "^7.5.3",
+    "@storybook/testing-library": "^0.2.2",
+    "playwright": "^1.39.0",
+    "prop-types": "^15.8.1",
+    "react-docgen-typescript": "^2.2.2",
+    "semantic-release": "^22.0.5",
+    "storybook": "^7.5.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  }
+}
